@@ -43,6 +43,9 @@ double Arithmetic(int [,] array)
         }
         result = sum/array.GetLength(0);
         Console.Write (result+ "|" );
+        sum = 0;
+        result = 0;
+
     }
     return result;
 }
